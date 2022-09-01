@@ -2,10 +2,11 @@ import { YesNoButtonGroupModule } from './shared/components/yes-no-button-group/
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, YesNoButtonGroupModule],
+  imports: [BrowserModule, YesNoButtonGroupModule, ReactiveFormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })
